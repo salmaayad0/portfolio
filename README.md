@@ -1,46 +1,66 @@
-# Getting Started with Create React App
+# Portfolio Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a portfolio website created using React, TypeScript, and Tailwind CSS. It consists of three main sections: the main section, about section, and contact section. 
+The contact section is connected to the EmailJS API, allowing users to send messages directly from the website. The website is deployed on Vercel.
 
-## Available Scripts
+## Table of Contents
 
-In the project directory, you can run:
+- [Installation](#installation)
+- [Usage](#usage)
+- [Deployment](#deployment)
+- [Dependencies](#dependencies)
+- [Contact](#contact)
 
-### `npm start`
+## Installation
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+To run this project locally, follow these steps:
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+1. Clone the repository to your local machine.
+   ````bash
+   git clone git@github.com:salmaayad0/portfolio.git
+   ```
 
-### `npm test`
+2. Navigate to the project directory.
+   ````bash
+   cd portfolio-website
+   ```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+3. Install the dependencies.
+   ````bash
+   npm install
+   ```
 
-### `npm run build`
+## Usage
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+To start the development server and view the website, run the following command:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```bash
+npm start
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+This will start the application and open it in your default browser. The website will be accessible at [http://localhost:3000](localhost/3000).
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Deployment
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+This website is deployed on [Vercel](https://vercel.com/).
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## Dependencies
 
-## Learn More
+This project relies on the following dependencies:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- React: A JavaScript library for building user interfaces.
+- TypeScript: A typed superset of JavaScript that compiles to plain JavaScript.
+- Tailwind CSS: A utility-first CSS framework for rapidly building custom designs.
+- framer-motion: A production-ready motion library for React.
+- EmailJS: A service that allows you to send emails directly from JavaScript code.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+For a complete list of dependencies and their versions, refer to the `package.json` file.
+
+## Contact
+
+If you have any questions or suggestions regarding this project, feel free to reach out to me.
+
+- Email: [salmaayad017@gmail.com](mailto:salmaayad017@gmail.com)
+- GitHub: [salmaayad0](https://github.com/salmaayad0)
