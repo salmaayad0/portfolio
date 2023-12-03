@@ -1,6 +1,7 @@
 # Portfolio Website
 
-This is a portfolio website created using React, TypeScript, and Tailwind CSS. It consists of three main sections: the main section, about section, and contact section. 
+This is a portfolio website created using React, TypeScript, and Tailwind CSS. 
+It consists of three main sections: the main section, about section, and contact section. 
 The contact section is connected to the EmailJS API, allowing users to send messages directly from the website. The website is deployed on Vercel.
 
 ## Table of Contents
@@ -38,12 +39,12 @@ To start the development server and view the website, run the following command:
 npm start
 ```
 
-This will start the application and open it in your default browser. The website will be accessible at [http://localhost:3000](localhost/3000).
+This will start the application and open it in your default browser. The website will be accessible at [http://localhost:3000](localhost).
 
 
 ## Deployment
 
-This website is deployed on [Vercel](https://vercel.com/).
+This website is deployed on [salmaAyad-portfolio-Vercel](https://salma-ayad-portfolio.vercel.app/).
 
 
 ## Dependencies
