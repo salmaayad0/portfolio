@@ -23,7 +23,7 @@ To run this project locally, follow these steps:
 
 2. Navigate to the project directory.
    ````bash
-   cd portfolio-website
+   cd portfolio
    ```
 
 3. Install the dependencies.
@@ -44,7 +44,7 @@ This will start the application and open it in your default browser. The website
 
 ## Deployment
 
-This website is deployed on [salmaAyad-portfolio-Vercel](https://salma-ayad-portfolio.vercel.app/).
+This website is deployed on [salmaAyad-portfolio](https://portfolio-jet-xi-97.vercel.app/).
 
 
 ## Dependencies
