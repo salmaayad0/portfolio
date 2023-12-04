@@ -16,18 +16,18 @@ const ButtonLink: FC<LinkProps> = ({ children, href, target, rel, download, seco
       className={`${secondary ? 'bg-secondary hover:bg-hoverSecondary' : 'bg-accent hover:bg-hoverPrimary'}
 
       transition-all ease-linear duration-300 py-2.5 px-8 rounded-full text-white text-base
-      sm:text-lg text-bold relative w-full sm:w-fit
+      sm:text-lg text-bold relative w-full sm:w-fit 
      `}
       href={href} rel={rel} target={target} download={download}
     >
       {icon ? (
         <div className="flex items-center gap-2.5 justify-center">
-          <p className="[text-shadow:_0_4px_4px_rgb(0_0_0_/_50%)]">
+          <p className="[text-shadow:_0_4px_4px_rgb(0_0_0_/_50%)] text-center ">
             {children}
           </p>
           <img src={icon} alt="download-cv" />
         </div>
-      ) : (<p className="[text-shadow:_0_4px_4px_rgb(0_0_0_/_50%)]">{children}</p>)
+      ) : (<p className="[text-shadow:_0_4px_4px_rgb(0_0_0_/_50%)] text-center ">{children}</p>)
       }
     </a>
   )

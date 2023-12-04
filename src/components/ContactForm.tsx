@@ -32,7 +32,7 @@ const ContactForm = () => {
         try {
             if (!validemail || !validname) { 
                 setTriger(true)
-                setErr('enter valid name or email'); 
+                setErr('invalid name or email'); 
             }
             else {
                 emailjs.sendForm('service_163y2d3', 'template_z079dmm', form.current, 'UT9G2zYE_OtcvfzgJ')
@@ -139,13 +139,13 @@ const ContactForm = () => {
             </form>
             {
                 err ? (
-                    <Notification triger={triger} color="red" handleClose={() => setTriger(false)}>
+                    <Notification triger={triger} color handleClose={() => setTriger(false)}>
                          {err}
                     </Notification>
                 )
 
                 : ( 
-                 <Notification triger={triger} color="green" handleClose={() => setTriger(false)}>
+                 <Notification triger={triger} handleClose={() => setTriger(false)}>
                             message sent successfully
                 </Notification>
                 )

@@ -39,7 +39,7 @@ const Hero = () => {
             >Salma Ayad<br/>
             <span className="text-secondary text-l sm:text-xl lg:text-3xl">
                 <Typewriter 
-                words={['Software Engineer', 'Front-end Developer', 'Back-end Developer']}
+                words={['Software Engineer', 'Front-end', 'Back-end']}
                 cursor cursorStyle="_"
                 typeSpeed={270} deleteSpeed={170}
                 loop
@@ -56,7 +56,7 @@ const Hero = () => {
               xl:justify-center my-20"
             >
             <ButtonLink 
-              href="mailto:salmaayad017@gmail.com?subject = From your portfolio&body = Are you available for immediate hiring"
+              href="mailto:salmaayad017@gmail.com?subject=From your portfolio&body=Are you available for immediate hiring"
               target="_blank" rel="noreferrer" secondary>
                 Hire Me
             </ButtonLink>
